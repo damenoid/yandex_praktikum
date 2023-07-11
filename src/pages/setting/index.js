@@ -2,7 +2,7 @@ import Handlebars from "handlebars";
 
 const template = `
 <section class="page">
-  <header>Settings</header>
+  <h4>Settings</h4>
   
   <label class="input">
     <span class="input__label">First name</span>

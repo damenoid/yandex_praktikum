@@ -6,11 +6,11 @@ const template = `
     <span class="input__label">Login</span>
     <input class="input__input" type="text" name="login" id="login">
   </label>
-  <label>
+  <label class="input">
     <span class="input__label">Password</span>
     <input class="input__input" type="Password" name="login" id="Password">
   </label>
-  <button>Enter {{ user }}</button>
+  <button>Enter</button>
   <a href="/registration">Sing up</a>
 </section>
 `

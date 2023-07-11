@@ -2,7 +2,7 @@ import Handlebars from "handlebars";
 
 const template = `
 <section class="page">
-  <header>Avatar</header>
+  <h4>Change avatar</h4>
   <label class="input">
     <span class="input__label">Avatar</span>
     <input class="input__input" type="file">

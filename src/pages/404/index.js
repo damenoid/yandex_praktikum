@@ -2,7 +2,7 @@ import Handlebars from "handlebars";
 
 const template = `
 <section class="page">
-  <div>{{ error.code }}</div>
+  <h3>{{ error.code }}</h3>
   <div>{{ error.message }}</div>
   <div>=(</div>
 </section>
