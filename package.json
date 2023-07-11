@@ -1,0 +1,27 @@
+{
+  "name": "yandex_praktikum",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": "16.13.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8080",
+    "start": "vite build; vite preview --port 3000"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "vite": "^4.3.9",
+    "postcss": "^8.4.24",
+    "postcss-normalize": "^10.0.1",
+    "sass": "^1.63.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "lodash-es": "^4.17.21",
+    "vite-plugin-handlebars": "^1.6.0"
+  }
+}

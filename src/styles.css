@@ -1,0 +1,40 @@
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+.input__label {
+    width: 100px;
+    text-align: end;
+}
+.input__input {
+    border: none;
+    border-bottom: solid 1px cadetblue;
+    width: 200px;
+    outline: none;
+}
+.input__input:focus-visible {
+    border-bottom: solid 1px darkblue;
+}
+
+.input__input[type="file"]::file-selector-button {
+    border: none;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
