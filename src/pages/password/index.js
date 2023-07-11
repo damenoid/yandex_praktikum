@@ -1,3 +1,6 @@
+import Handlebars from "handlebars";
+
+const template = `
 <section class="page">
   <header>Password</header>
   
@@ -6,3 +9,5 @@
   
   <button>Save</button>
 </section>
+`
+export const showPassword = () => Handlebars.compile(template)({});

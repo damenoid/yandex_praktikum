@@ -1,7 +1,25 @@
 
 .input {
+    /*width: 300px;*/
+    display: flex;
+    gap: 10px;
+}
+.input__label {
+    width: 40%;
+    text-align: end;
+}
+.input__input {
     border: none;
     border-bottom: solid 1px cadetblue;
+    width: 60%;
+    outline: none;
+}
+.input__input:focus {
+    border-bottom: solid 2px cadetblue;
+}
+
+.input__input:focus-visible {
+    border-bottom: solid 1px darkblue;
 }
 
 .page {
