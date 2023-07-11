@@ -3,7 +3,7 @@ import Handlebars from "handlebars";
 const template = `
 <section class="page">
   <h4>Registration</h4>
-  <form>
+  <form action="" class="form">
     <label class="input">
       <span class="input__label">First name</span>
       <input class="input__input" type="text" name="first_name">
@@ -29,7 +29,7 @@ const template = `
       <input class="input__input" type="text" name="phone">
     </label>
     
-    <input type="submit">Sing up</input>
+    <input type="submit" value="Sing up">
   </form>
 </section>
 `

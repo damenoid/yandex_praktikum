@@ -2,7 +2,7 @@ import Handlebars from "handlebars";
 
 const template = `
 <section class="page">
-  <form>
+  <form action="" class="form">
     <label class="input">
       <span class="input__label">Login</span>
       <input class="input__input" type="text" name="login">
@@ -11,7 +11,7 @@ const template = `
       <span class="input__label">Password</span>
       <input class="input__input" type="Password" name="password">
     </label>
-    <input type="submit">Enter</input>
+    <input type="submit" value="Enter">
   <form>
   <a href="/registration">Sing up</a>
 </section>
