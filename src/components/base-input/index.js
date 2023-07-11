@@ -7,4 +7,3 @@ const template = `
 </label>
 `
 export const showBaseInput = ({label, type}) => Handlebars.compile(template)({label, type});
-
