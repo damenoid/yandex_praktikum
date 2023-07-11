@@ -15,9 +15,9 @@
 ## Установка
 
 1.  Склонируйте репозиторий с помощью команды:    
-    `git clone https://github.com/damenoid/middle.messenger.praktikum.yandex.git`
+    `git clone https://github.com/damenoid/yandex_praktikum.git`
 2.  Перейдите в каталог проекта:
-    `cd middle.messenger.praktikum.yandex`
+    `cd yandex_praktikum`
 3.  Установите зависимости, выполнив следующую команду (optional для разработчиков):
     `npm install`
 4.  Запустите приложение, выполнив команду:

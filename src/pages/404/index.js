@@ -7,4 +7,4 @@ const template = `
   <div>=(</div>
 </section>
 `
-export const showError404 = () => Handlebars.compile(template)({error: {code: 404, message: 'error'}});
+export const showError404 = () => Handlebars.compile(template)({error: {code: 404, message: 'Страница не найдена'}});
