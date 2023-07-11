@@ -3,6 +3,7 @@
 Учебный проект мессенджера 
 
 ## Ссылки на страницы:
+[netlify](https://incomparable-gecko-cea8da.netlify.app/)
 
 [/login](http://localhost:3000/login)
 [/password](http://localhost:3000/password)
